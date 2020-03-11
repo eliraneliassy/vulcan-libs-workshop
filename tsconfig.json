@@ -19,9 +19,10 @@
       "dom"
     ],
     "paths": {
-      "logger": [
-        "dist/logger/logger",
-        "dist/logger"
+      "@vulcan/logger": [
+        "projects/logger/src/public_api.ts",
+        "dist/logger",
+        "dist/logger/logger"
       ]
     }
   },
